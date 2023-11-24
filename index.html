@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <h3>Choose your move from &#x1F44A &nbsp;&#x1F590 or&nbsp;&#x270c :</h3>  <!-- html entities -->
+    <div class="buttons">
+        <button class="btn" id="rock"><img src="assets/rock.svg"></button>
+        <button class="btn" id="paper"><img src="assets/paper.svg" alt=""></button>
+        <button class="btn" id="scissors"><img src="assets/scissors.svg" alt=""></button>
+
+    </div>
+    <p id="result"></p>
+    <p id="scores">
+        <span id="urScr">Your score:<span id="user-score">0</span></span>
+        <button id="reset-button">RESET SCORE</button>
+        <span id="cmpScr"> Computer score:<span id="computer-score">0</span></span>
+    </p>
+</body>
+</html>
